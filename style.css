@@ -1,0 +1,47 @@
+body{
+    background-color: #FC766AFF;
+}
+.shopping-header{
+    text-align: center;
+    background-color: #5B84B1FF;
+    border-radius: 20px;
+
+}
+
+
+.shopping-header input{
+    margin-bottom: 20px;
+}
+
+.main-shopping-list{
+    background-color: #5B84B1FF;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.main-shopping-list{
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.main-shopping-list li{
+    margin-top: 5px;
+    text-align: center;
+    margin-left: -350px;
+}
+
+.edit{
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+    right: 200px;
+}
+.delete{
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+}
