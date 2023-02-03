@@ -1,5 +1,7 @@
 body{
     background-color: #FC766AFF;
+    min-width: 1500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .shopping-header{
     text-align: center;
@@ -8,9 +10,14 @@ body{
 
 }
 
+.btn{
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .shopping-header input{
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .main-shopping-list{

@@ -4,7 +4,10 @@ let input = document.getElementById("my-input");
 
 
 BTN.onclick = function(){
+    let val = input.value;
+    if(val.length > 0){
      CreateElements();
+    }
 }
 
 
